@@ -1,0 +1,81 @@
+31. Form in HTML 53 Part 04
+
+<link href="css/style.css" rel="stylesheet"/>
+
+Create Form Use Form Tag <form> </form>
+atributes=>>> action=""  method=""
+
+============================================
+For Box Use Input Tag and input inline element
+attributes=>>> type="text" name="firstname" placeholder="firstname"OR value="firstname">
+============
+<form action="" method="">
+        <input type="text" name="firstname" placeholder="firstname">
+        <input type="submit">
+    </form>
+=============================
+    Radio Button
+    Gender:
+        <!-- <input type="radio">Male
+        <input type="radio">Female -->
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="male">Female
+=====================================================
+         <!-- Auto Or By Default Select Male or Female used Checked Or Checked="" -->
+        <input type="radio" name="gender" value="male" checked="">Male
+        <input type="radio" name="gender" value="male">Female
+==================================================================
+<!-- Select Tag For Like Country Select --> <option selected >USA</option>
+         Country:
+        <select name="country">
+            <option>Bangladesh</option>
+            <option>India</option>
+            <option selected >USA</option>
+            <option>Englad</option>
+            <option>France</option>
+            <option>Japan</option>
+        </select>
+=====================================================================
+Birthdate:
+        <input type="date">
+=================================================
+
+<body>
+    <form action="" method="">
+        First Name: <br>
+        <!-- <input type="text" name="firstname" placeholder="firstname"> -->
+        <input type="text" name="firstname" value="firstname"> <br>
+        Last Name: <br>
+        <input type="text" name="lastname" value="lastname"> <br><br>
+        
+        Gender:
+        <!-- <input type="radio">Male
+        <input type="radio">Female -->
+
+        <!-- <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="male">Female -->
+
+         <!-- Auto Or By Default Select Male or Female used Checked Or Checked="" -->
+        <input type="radio" name="gender" value="male" checked="">Male
+        <input type="radio" name="gender" value="male">Female <br>
+
+        <!-- Select Tag For Like Country Select -->
+         Country:
+        <select name="country">
+            <option>Bangladesh</option>
+            <option>India</option>
+            <!-- <option>USA</option> -->
+            <option selected>USA</option>
+            <option>Englad</option>
+            <option>France</option>
+            <option>Japan</option>
+        </select> <br><br>
+
+        Birthdate:
+        <input type="date">
+
+        <br><br>
+        <input type="submit"> 
+        <input type="Reset">
+    </form>
+</body>
